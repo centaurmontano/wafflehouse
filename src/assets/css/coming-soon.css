@@ -1,0 +1,19 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('assets/images/WaffleHouse-ComingSoon.png');
+  /* Replace with your image URL */
+  background-size: cover;
+  /* Makes the image cover the entire area */
+  background-position: center;
+  /* Centers the image */
+  height: 100vh;
+  /* Makes the div take up the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}

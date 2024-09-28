@@ -1,0 +1,402 @@
+---
+title: "Waffle House Bar & Grill "
+description: "The Best Waffle and Steak Combo in Town"
+preloadImg: "/assets/images/landing.jpg"
+permalink: "/"
+tags: "sitemap" # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/
+we need to manually add the sitemap tag to this page (only).
+eleventyNavigation:
+key: Home
+order: 100
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+<!-- <meta http-equiv="refresh" content="0; url=https://wafflehousebarandgrillsherwoodpark.netlify.app/">. -->
+<link rel="stylesheet" href="/assets/css/local.css" />
+<link rel="stylesheet" href="/assets/css/critical.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XEEN4SD66T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-XEEN4SD66T');
+</script>
+
+
+<!-- Script for Netlify Identity -->
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script defer>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+{% endblock %} {% block body %}
+<!-- ============================================ -->
+<!--                   Hero                       -->
+<!-- ============================================ -->
+
+<section id="hero-407">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Waffle House Bar & Grill
+        <img height="16" alt="squiggle" decoding="async" src="assets/svgs/squiggle.svg" width="144" class="cs-squiggle"
+          aria-hidden="true"></span>
+      <h2 class="cs-title">
+        <span class="cs-color">The Best Waffle and Steak Combo</span>
+        in Sherwood Park
+      </h2>
+
+      <p class="cs-text">
+        A Delicious Fusion of Asian & Western Flavors with Our Signature Waffle and Steak Combo! Indulge in a
+        mouthwatering blend of savory and sweet that’s perfect for any time of day. Whether you're craving a hearty
+        breakfast or a satisfying dinner, our waffle and steak combo will take your taste buds on an unforgettable
+        journey!
+      </p>
+      <a href="/contact" class="cs-button-solid">See Our Menu</a>
+      <a class="cs-button-soon">ORDER SOON</a>
+
+      <!-- <span class="cs-header">Trusted by:</span> -->
+      <div class="cs-logo-group">
+        <!--Logo 1-->
+        <!-- <img
+          class="cs-logo"
+          src="/assets/images/landing-page-waffle.jpg"
+          alt="logo"
+          width="113"
+          height="31"
+          decoding="async"
+        /> -->
+        <!--Logo 2-->
+        <!-- <img
+          class="cs-logo"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/logo2.svg"
+          alt="logo"
+          width="113"
+          height="40"
+          decoding="async"
+        /> -->
+        <!--Logo 3-->
+        <!-- <img
+          class="cs-logo"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/logo3.svg"
+          alt="logo"
+          width="113"
+          height="30"
+          decoding="async"
+        /> -->
+        <!--Logo 4-->
+        <!-- <img
+          class="cs-logo"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/logo4.svg"
+          alt="logo"
+          width="113"
+          height="37"
+          decoding="async"
+        /> -->
+      </div>
+    </div>
+    <div class="cs-stat-group">
+      <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/waffelnobackground.png" />
+        <source media="(min-width: 601px)" srcset="/assets/images/waffelnobackground.png" />
+        <img loading="lazy" decoding="async" src="/assets/images/waffelnobackground.png" alt="leaves" width="842"
+          height="737" aria-hidden="true" />
+      </picture>
+      <!-- <div class="cs-stat-box">
+        <span class="cs-stat">
+          <b> 263</b>
+          <span class="cs-desc">Happy Families</span>
+        </span>
+      </div>
+      <div class="cs-stat-box">
+        <span class="cs-stat">
+          <b>5/5</b>
+          <span class="cs-desc">Google Rating</span>
+        </span>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews-567">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Our Reviews</span> <img height="16" alt="squiggle" decoding="async"
+        src="assets/svgs/squiggle.svg" width="144" class="cs-squiggle" aria-hidden="true">
+
+      <h2 class="cs-title">What Our Clients Say</h2>
+      <p class="cs-text">
+        Hear what our satisfied customers have to say about their experiences at Waffle House Bar & Grill. Join us and
+        discover why our customers keep coming back! </p>
+    </div>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <!--Blue Quote-->
+        <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg"
+          decoding="async" alt="quote icon" width="189" height="24">
+        <p class="cs-item-title"><b>Good Quality</b></p>
+        <p class="cs-item-text">
+          Had the steak ribeye good quality 👌Tasty 28.95 10 oz </p>
+        <div class="cs-flex-group">
+          <picture class="cs-picture">
+            <img class="cs-profile" src="/assets/images/Ryan-Olinek.jpg" decoding="async" alt="profile" width="50"
+              height="50" aria-hidden="true">
+          </picture>
+          <span class="cs-name">
+            Ryan Olinek
+            <span class="cs-job">2 weeks ago</span>
+          </span>
+        </div>
+      </li>
+      <li class="cs-item">
+        <!--Blue Quote-->
+        <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg"
+          decoding="async" alt="quote icon" width="189" height="24">
+        <p class="cs-item-title"><b>Salads</b></p>
+        <p class="cs-item-text">
+          Went there for steak night, it was so good, also had all you can eat salads. We will be back </p>
+        <div class="cs-flex-group">
+          <picture class="cs-picture">
+            <img class="cs-profile" src="/assets/images/chris.jpg" decoding="async" alt="profile" width="50" height="50"
+              aria-hidden="true">
+          </picture>
+          <span class="cs-name">
+            Chris Bell
+            <span class="cs-job">2 weeks ago</span>
+          </span>
+        </div>
+      </li>
+      <li class="cs-item">
+        <!--Blue Quote-->
+        <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg"
+          decoding="async" alt="quote icon" width="189" height="24">
+        <p class="cs-item-title"><b>Recommended</b></p>
+        <p class="cs-item-text">
+          The steak was very tasty and delicious and cooked well. The unlimited sides are a plus. And all for 19.95$
+          person.
+          Highly recommend to try out there Friday steak nights </p>
+        <div class="cs-flex-group">
+          <picture class="cs-picture">
+            <img class="cs-profile" src="/assets/images/scot.jpg" decoding="async" alt="profile" width="50" height="50"
+              aria-hidden="true">
+          </picture>
+          <span class="cs-name">
+            Scot Smith
+            <span class="cs-job">3 months ago</span>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <br>
+
+  <div class="button-container">
+    <a href="https://maps.app.goo.gl/pZwPPJHHZWUTvMvr9" class="cs-button-5">Read More Reviews</a>
+  </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                    Events                    -->
+<!-- ============================================ -->
+
+<section id="events-1764">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Our Events</span>
+
+      <img height="16" alt="squiggle" decoding="async" src="assets/svgs/squiggle.svg" width="144" class="cs-squiggle"
+        aria-hidden="true">
+
+
+      <h2 class="cs-title">Special Promo</h2>
+    </div>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <picture class="cs-picture" aria-hidden="true">
+          <source media="(max-width: 600px)" srcset="/assets/images/specialpromo2.png">
+          <source media="(min-width: 601px)" srcset="/assets/images/specialpromo2.png">
+          <img loading="lazy" decoding="async" src="/assets/images/specialpromo2.png" alt="people" width="305"
+            height="180">
+        </picture>
+        <div class="cs-info">
+          <h3 class="cs-h3">Friday Steak Night</h3>
+          <div class="cs-details">
+            <!-- <span class="cs-opening">
+                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-event-calendar.svg" alt="icon" width="24" height="24" aria-hidden="true">
+                            <span class="cs-bold">Opening:</span> 4:00pm - 9:00pm
+                        </span> -->
+            <span class="cs-time">
+              <img class="cs-icon" loading="lazy" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-event-clock.svg" alt="icon"
+                width="24" height="24" aria-hidden="true">
+              <span class="cs-bold">Time:</span> 4:00pm - 9:00pm
+            </span>
+          </div>
+
+        </div>
+        <div class="cs-instructor">
+          <span class="cs-price">$21.95-$26.95</span>
+        </div>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture" aria-hidden="true">
+          <source media="(max-width: 600px)" srcset="/assets/images/specialpromo1.png">
+          <source media="(min-width: 601px)" srcset="/assets/images/specialpromo1.png">
+          <img loading="lazy" decoding="async" src="/assets/images/specialpromo1.png" alt="people" width="305"
+            height="180">
+        </picture>
+
+
+        <div class="cs-info">
+          <h3 class="cs-h3">Saturday BBQ Night</h3>
+          <div class="cs-details">
+
+            <span class="cs-time">
+              <img class="cs-icon" loading="lazy" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-event-clock.svg" alt="icon"
+                width="24" height="24" aria-hidden="true">
+              <span class="cs-bold">Time:</span> 4:00pm - 9:00pm
+            </span>
+          </div>
+
+        </div>
+        <div class="cs-instructor">
+
+          <span class="cs-price">$26.95</span>
+        </div>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture" aria-hidden="true">
+          <source media="(max-width: 600px)" srcset="/assets/images/specialpromo3.png">
+          <source media="(min-width: 601px)" srcset="/assets/images/specialpromo3.png">
+          <img loading="lazy" decoding="async" src="/assets/images/specialpromo3.png" alt="people" width="305"
+            height="180">
+        </picture>
+        <div class="cs-info">
+          <h3 class="cs-h3">Brunch Everyday</h3>
+          <div class="cs-details">
+
+
+          </div>
+
+        </div>
+        <div class="cs-instructor">
+
+
+          <span class="cs-price">$21.95</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Contact Us</span>
+      <h2 class="cs-title">Ask Us Anything!</h2>
+      <form class="cs-form" id="cs-form" method="post" name="Contact Form">
+        <label class="cs-label">Name
+          <input class="cs-input" id="name" name="name" placeholder="Name" required type="text" /></label>
+        <label class="cs-label cs-email">Email
+          <input class="cs-input" id="email" name="email" placeholder="Email" required type="text" /></label>
+        <label class="cs-label cs-phone">Phone
+          <input class="cs-input" id="phone" name="phone" placeholder="Phone" required type="text" /></label>
+        <label class="cs-label">Message
+          <textarea class="cs-input cs-textarea" id="message" name="Message" placeholder="Write message..."
+            required></textarea>
+        </label>
+        <button class="cs-button-solid" type="submit">
+          Submit Message
+        </button>
+      </form>
+    </div>
+    <div class="cs-right">
+      <div class="cs-map" aria-hidden="true">
+        <iframe allowfullscreen height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9477.90620116487!2d-113.3224946!3d53.5671111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a03dba437d93c9%3A0x6b7edeb3a43f522b!2sWaffle%20House%20Bar%20%26%20Grill!5e0!3m2!1sen!2sph!4v1721200089085!5m2!1sen!2sph"
+          style="border: 0" width="600"></iframe>
+      </div>
+      <ul class="cs-contact-group">
+        <li class="cs-item">
+          <span class="cs-header"><img alt="icon" decoding="async" height="20"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone-gold.svg" width="20" class="cs-icon" />
+            Phone </span><a href="tel:219-942-6300" class="cs-link">780-200-0735</a>
+        </li>
+        <li class="cs-item">
+          <span class="cs-header"><img alt="icon" decoding="async" height="20"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-gold.svg" width="20" class="cs-icon" />
+            Address </span><a href="https://maps.app.goo.gl/9RoZy4SK53aVcFQJ6" class="cs-link">26 Strathmoor Drive,
+            Sherwood Park, <br />AB, Canada, Alberta</a>
+        </li>
+        <li class="cs-item">
+          <span class="cs-header"><img alt="icon" decoding="async" height="20"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/clock-gold.svg" width="20" class="cs-icon" />
+            Our Hours </span><span class="cs-hours">Restaurant: 8AM-8PM
+          </span>
+          <span class="cs-hours">Bar: 10AM-2AM</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ============================================ -->
+<!--                    Map                       -->
+<!-- ============================================ -->
+
+<!-- <section id="map-1834">
+  <img
+    class="cs-icon"
+    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/brown-pin.svg"
+    alt="icon"
+    decoding="async"
+    width="52"
+    height="52"
+    aria-hidden="true"
+  />
+  <div class="cs-background">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9477.90620116487!2d-113.3224946!3d53.5671111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a03dba437d93c9%3A0x6b7edeb3a43f522b!2sWaffle%20House%20Bar%20%26%20Grill!5e0!3m2!1sen!2sph!4v1721200089085!5m2!1sen!2sph"
+      width="800"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+  <div class="cs-container">
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <h2 class="cs-h2">Waffle House Bar & Grill</h2>
+        <span class="cs-item-text"> 26 Strathmoor Dr, Sherwood Park, AB T8H 2B6, Canada </span>
+      </li>
+    </ul>
+  </div>
+</section> -->
+
+
+{% endblock %}

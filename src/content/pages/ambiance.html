@@ -1,0 +1,214 @@
+---
+title: 'Ambiance|Waffle House Sherwood'
+description: 'The Best Waffle and Steak Combo in Town'
+preloadImg: '/assets/images/imagename.format'
+permalink: 'ambiance/'
+eleventyNavigation:
+    key: Name to appear in navigation
+    order: 1000
+    parent: Optional - Put another page's "key" here to create a dropdown
+    hideOnMobile: Optional - set to "true" to hide on devices from, and below, 1023px
+    hideOnDesktop: Optional - set to "true" to hide on devices above, and including, 1024px
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/assets/css/ambiance.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XEEN4SD66T"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-XEEN4SD66T');
+</script>
+{% endblock %}
+
+{% block body %}
+     <!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-405">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">gallery</span>
+            <h2 class="cs-title">Ambiance</h2>
+            <div class="cs-button-group">
+                <button class="cs-button" data-filter="one">
+                    All
+                </button>
+              
+                <button class="cs-button" data-filter="three">
+                    Dining
+                </button>
+                <button class="cs-button" data-filter="four">
+                    Bar
+                </button>
+                <button class="cs-button" data-filter="five">
+                    Entertainment
+                </button>
+            </div>
+        </div>
+        <div class="cs-gallery-wrapper">
+            <!--Gallery 1-->
+        <div class="cs-gallery" data-category="one">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining4.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining4.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining4.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining3.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining3.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar2.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar2.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+           
+            <!--Picture 5-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/arcade.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/arcade.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/arcade.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 6-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/ktv.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/ktv.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/ktv.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 7-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/billiard.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/billiard.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/billiard.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 8-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar1.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar1.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar1.jpg" alt="gallery" width="305" height="400">
+            </picture>
+        </div>
+        <!--Gallery 2-->
+        <div class="cs-gallery cs-hidden" data-category="two">
+            <!--Picture 1-->
+           
+            <!--Picture 2-->
+            <!-- <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery2.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/gallery2.jpg" alt="gallery" width="305" height="400">
+            </picture> -->
+           
+        </div>
+        <!--Gallery 3-->
+        <div class="cs-gallery cs-hidden" data-category="three">
+             <!--Picture 1-->
+             <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining1.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining1.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining1.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining2.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining2.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining3.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining3.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 5-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/dining4.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/dining4.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/dining4.jpg" alt="gallery" width="305" height="400">
+            </picture>
+           
+        </div>
+        <!--Gallery 4-->
+        <div class="cs-gallery cs-hidden" data-category="four">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar1.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar1.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar1.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar2.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar2.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar3.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar3.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar4.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar4.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar4.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 5-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/bar5.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bar5.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bar5.jpg" alt="gallery" width="305" height="400">
+            </picture>
+           
+        </div>
+        <!--Gallery 5-->
+        <div class="cs-gallery cs-hidden" data-category="five">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/arcade.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/arcade.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/arcade.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/ktv.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/ktv.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/ktv.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/billiard.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/billiard.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/billiard.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/billiard1.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/billiard1.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/billiard1.jpg" alt="gallery" width="305" height="400">
+            </picture>
+        
+        </div>
+        </div>
+    </div>
+</section>
+                 
+{% endblock %}
